@@ -20,6 +20,13 @@ def fibonacci(n):
       a, b = b, a + b
     return b
 
+def is_even_or_odd(n):
+    if n % 2 == 0:
+        return "짝수"
+    else:
+        return "홀수"
+
 # 0부터 100까지 피보나치 수열 출력
 for i in range(101):
-    print(f"fibonacci({i}) = {fibonacci(i)}")
+    fib_num = fibonacci(i)
+    print(f"fibonacci({i}) = {fib_num}, {is_even_or_odd(fib_num)}")
