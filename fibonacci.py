@@ -30,3 +30,5 @@ def is_even_or_odd(n):
 for i in range(101):
     fib_num = fibonacci(i)
     print(f"fibonacci({i}) = {fib_num}, {is_even_or_odd(fib_num)}")
+
+print("종료되었습니다.")
